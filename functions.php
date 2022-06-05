@@ -21,3 +21,22 @@ if(isset($_POST['submitbtn'])){
 		echo "<script>alert('متاسفانه خطایی رخ داده است');</script>";
 	}
 }
+
+
+if(isset($_POST['colSubmitbtn'])){
+	$data = array(
+		'colName' => $_POST['colName'],
+		'colNumber' => $_POST['colNumber'],
+		'colEmail' => $_POST['colEmail'],
+		'colDesc' => $_POST['colDesc'],
+		'fusk' => $_POST['fusk'],
+	);
+	$table_name = 'collabrate';
+	$result = $wpdb -> insert($table_name, $data, $format=NULL);
+	
+	if($result == 1){
+		echo "<script>window.location.replace('https://cadostore.ir/');</script>";
+	}else{
+		echo "<script>alert('متاسفانه خطایی رخ داده است');</script>";
+	}
+}
