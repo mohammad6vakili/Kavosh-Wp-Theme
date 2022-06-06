@@ -37,7 +37,7 @@
         <a class="header-link" href="/about"> درباره ما </a>
         <a class="header-link" href="#contact"> تماس با ما </a>
       </div>
-      <button>شروع همکاری با کاوش</button>
+      <a class="header-collaborate-ham" href="https://cadostore.ir/collaborate">شروع همکاری با کاوش</a>
     </div>
     <!-- -------------------------------header----------------------------- -->
     <header id="header" class="header animate__animated animate__fadeInDown">
@@ -69,7 +69,7 @@
           <a class="header-link" href="#customers">معرفی مشتریان</a>
         </div>
         <div>
-          <button>شروع همکاری با کاوش</button>
+        <a class="header-collaborate" href="https://cadostore.ir/collaborate">شروع همکاری با کاوش</a>
         </div>
         <div>
           <button id="hamButton"><img src="<?php echo get_template_directory_uri();?>/images/ham.svg" alt="mobile menu">			</button>

@@ -1,6 +1,6 @@
 <?php
   /**
-   * Template Name:Collabrate
+   * Template Name:Collaborate
    */
   
 get_header(); ?>       
