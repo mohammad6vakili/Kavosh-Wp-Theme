@@ -230,5 +230,14 @@ window.addEventListener("scroll", () => {
   }
 });
 </script>
+<script>
+    let newDiv = document.createElement("div");
+    document.getElementById("fusk").addEventListener("change", (e) => {
+      console.log(e.target.files[0].name);
+      newDiv.innerHTML = e.target.files[0].name;
+      document.getElementById("fileContainer").appendChild(newDiv);
+      document.getElementById("uploadFileButton").style.width = "30%";
+    });
+  </script>
 </body>
 </html>
