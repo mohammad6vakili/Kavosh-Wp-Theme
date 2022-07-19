@@ -1029,7 +1029,7 @@ body {
 .main-section-ten > div:nth-child(2) {
   align-items: flex-end;
 }
-.main-section-ten > div:nth-child(2) > div {
+.main-section-ten > div:nth-child(2) > form {
   width: 450px;
   height: 100%;
   padding: 20px;
@@ -1045,7 +1045,7 @@ body {
   box-shadow: -1px 1px 20px rgba(0, 0, 0, 0.15);
   border-radius: 40px;
 }
-.main-section-ten > div:nth-child(2) > div > div:nth-child(1) {
+.main-section-ten > div:nth-child(2) > form > div:nth-child(1) {
   font-weight: 700;
   font-size: 28px;
   line-height: 209.22%;
