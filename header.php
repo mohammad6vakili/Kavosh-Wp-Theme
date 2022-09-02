@@ -25,54 +25,52 @@
   </head>
 <body>
     <!-- -------------------------------hamburger menu----------------------------- -->
-    <div id="hamMenu" class="ham-menu">
+  <div id="hamMenu" class="ham-menu">
+    <div>
+      <a class="header-link" href="/"> خانه </a>
+      <a class="header-link" href="#products">محصولات</a>
+      <a class="header-link" href="#services">خدمات</a>
+      <a class="header-link" href="#consulting">آموزش و مشاوره</a>
+      <a class="header-link" href="#techs">تکنولوژی ها</a>
+      <a class="header-link" href="#customers">معرفی مشتریان</a>
+      <a class="header-link" href="/about"> درباره ما </a>
+      <a class="header-link" href="/complaint"> ثبت شکایات و انتقادات </a>
+    </div>
+    <a class="header-collaborate-ham" href="/collaborate">شروع همکاری با رایان پرداز کاوش</a>
+  </div>
+  <!-- -------------------------------header----------------------------- -->
+  <header id="header" class="header animate__animated animate__fadeInDown">
+    <!-- header top  -->
+    <div id="headerTop">
       <div>
-		<a class="header-link" href="/">خانه< /a>
+        <a href="#">
+          گزارش کامل رویدادها و اخبار رایان پرداز کاوش را ببینید
+        </a>
+        <img src="<?php echo get_template_directory_uri();?>/images/header_arrow.png" alt="arrow" />
+      </div>
+      <div>
+        <a class="header-link" href="/"> خانه </a>
+        <a class="header-link" href="/about"> درباره ما </a>
+        <a class="header-link" href="/complaint"> ثبت شکایات و انتقادات </a>
+      </div>
+    </div>
+    <!-- header bottom  -->
+    <div>
+      <a href="/">
+        <img id="kavoshLogo" src="<?php echo get_template_directory_uri();?>/images/realLogo.jpg" alt="logo" />
+      </a>
+      <div>
         <a class="header-link" href="#products">محصولات</a>
         <a class="header-link" href="#services">خدمات</a>
         <a class="header-link" href="#consulting">آموزش و مشاوره</a>
         <a class="header-link" href="#techs">تکنولوژی ها</a>
         <a class="header-link" href="#customers">معرفی مشتریان</a>
-        <a class="header-link" href="#"> بلاگ </a>
-        <a class="header-link" href="/about"> درباره ما </a>
-        <a class="header-link" href="#contact"> تماس با ما </a>
       </div>
-      <a class="header-collaborate-ham" href="https://cadostore.ir/collaborate">شروع همکاری با کاوش</a>
-    </div>
-    <!-- -------------------------------header----------------------------- -->
-    <header id="header" class="header animate__animated animate__fadeInDown">
-      <!-- header top  -->
-      <div id="headerTop">
-        <div>
-          <a href="#">
-            گزارش کامل رویدادها و اخبار رایان پرداز کاوش را ببینید
-          </a>
-          <img src="<?php echo get_template_directory_uri();?>/images/header_arrow.png" alt="arrow" />
-        </div>
-        <div>
-			<a class="header-link" href="/">خانه</a>
-          <a class="header-link" href="#"> بلاگ </a>
-          <a class="header-link" href="/about"> درباره ما </a>
-          <a class="header-link" href="#contact"> تماس با ما </a>
-        </div>
-      </div>
-      <!-- header bottom  -->
       <div>
-        <div>
-          <img id="kavoshLogo" class="animate__animated animate__fadeInRight animate__delay-1s" src="<?php echo get_template_directory_uri();?>/images/realLogo.jpg" alt="logo" />
-        </div>
-        <div>
-          <a class="header-link" href="#products">محصولات</a>
-          <a class="header-link" href="#services">خدمات</a>
-          <a class="header-link" href="#consulting">آموزش و مشاوره</a>
-          <a class="header-link" href="#techs">تکنولوژی ها</a>
-          <a class="header-link" href="#customers">معرفی مشتریان</a>
-        </div>
-        <div>
-        <a class="header-collaborate" href="https://cadostore.ir/collaborate">شروع همکاری با کاوش</a>
-        </div>
-        <div>
-          <button id="hamButton"><img src="<?php echo get_template_directory_uri();?>/images/ham.svg" alt="mobile menu">			</button>
-        </div>
+        <a class="header-collaborate" href="/collaborate">شروع همکاری با رایان پرداز کاوش</a>
       </div>
-    </header>
+      <div>
+        <button id="hamButton"><img src="<?php echo get_template_directory_uri();?>/images/ham.svg" alt="mobile menu"></button>
+      </div>
+    </div>
+  </header>
